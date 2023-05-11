@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,800;1,500;1,800&display=swap');
+
+
+$theme-text: 'Plus Jakarta Sans', sans-serif;
+
+// ### Primary
+$colorRed: hsl(1, 90%, 64%);
+$colorBlue: hsl(219, 85%, 26%);
+
+
+
+// ### Neutral
+$colorWhite: hsl(0, 0%, 100%);
+$colorVeryLightGrayishBlue: hsl(210, 60%, 98%);
+$colorLightGrayishBlue1: hsl(211, 68%, 94%);
+$colorLightGrayishBlue2: hsl(205, 33%, 90%);
+$colorGrayishBlue: hsl(219, 14%, 63%);
+$colorDarkGrayishBlue: hsl(219, 12%, 42%);
+$colorVeryDarkBlue: hsl(224, 21%, 14%);
+
+// Breakpoints
+
+
+$screen-XSmoll: 40.625rem;   //448px Custom device
+$screen-smoll: 836px;   
+
+
+//container
+$height-container: 90vh;
+$max-width-container: 69.5rem;
+
+
+

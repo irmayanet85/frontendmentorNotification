@@ -1,0 +1,13 @@
+
+body {
+    background: $colorVeryLightGrayishBlue;
+    font-family: $theme-text;
+    font-size: 16px;
+    @include flex(row, center, center);
+    // min-height: 100vh;
+    
+    
+}
+
+
+

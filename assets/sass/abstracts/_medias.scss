@@ -1,0 +1,67 @@
+@media (max-width: $screen-smoll){
+   body {
+        font-size: 14px;
+       .card-notification {
+           margin-top: 0rem;
+           .card-header-notification {
+       
+               height: 4.8rem;
+               padding-left: 1.1rem;
+               padding-right: 1.1rem;
+               
+               .card-notification-title {
+                   h1 {
+                       font-size: 1.25rem;
+                   }
+               }
+               h2 {
+                   font-size: 0.85rem;
+               
+               }
+               p {
+                display: none;
+               }
+              
+           }
+           .card-body-notification {
+               padding-left: 0.9rem;
+               padding-right: 0.9rem;
+               .notification {
+                   padding-left: 1.2rem;
+                   padding-top: 0.8rem; 
+                   padding-bottom: 0.8rem; 
+                   margin-bottom: 0.9rem;
+                   min-height: 4rem;
+                   gap: 0.8rem;
+                   .description {                    
+                       .description-subject {
+                           gap: 0.1rem;
+                           margin-bottom: 0.2rem;
+                       
+                       }
+                   }
+                  
+               }
+           }
+       
+       }
+       .avatar-smoll {
+           height: 2.4rem;
+           width: 2.4rem;
+           min-width: 2.4rem;
+           
+       }
+
+       .private-msg {
+        margin: -0.5rem 4rem 0.5rem 4.1rem;
+        width: 78%;
+        
+    }
+   }
+
+}
+
+@media (max-width: $screen-XSmoll){
+   
+
+}

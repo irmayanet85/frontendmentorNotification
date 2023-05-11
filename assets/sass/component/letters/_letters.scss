@@ -1,0 +1,31 @@
+.bold {
+    font-weight: bold; 
+    color: $colorVeryDarkBlue; 
+    cursor: pointer; 
+}
+.time {
+    font-size: 1rem;
+    color: $colorGrayishBlue;
+}
+.group {
+    font-size: 1rem;
+    font-weight: bold; 
+    color: $colorBlue;
+    cursor: pointer; 
+}
+
+.strong{
+    color: $colorDarkGrayishBlue;
+    font-weight: 800;
+    margin-left: 0.3rem;
+    cursor: pointer; 
+}
+.bold:hover {
+    color: $colorBlue;
+}
+
+.strong:hover {
+    color: $colorBlue;
+}
+
+

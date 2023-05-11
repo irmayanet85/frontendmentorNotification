@@ -1,0 +1,10 @@
+.avatar-smoll {
+    height: 2.8rem;
+    width: 2.8rem;
+    min-width: 2.8rem;
+    
+    img {
+        @include img-fluid();
+    }
+
+}

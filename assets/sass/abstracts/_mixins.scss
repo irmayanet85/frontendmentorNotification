@@ -1,0 +1,52 @@
+@mixin flex ($direction: column, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+@mixin flex-grap ($justify: center, $align: center) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid ($template-column: 17.75rem, $template-rows: 6.625rem , $gap: 2rem) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($template-column, 1fr));;
+    grid-template-rows: minmax($template-rows, auto);;
+    gap: $gap;
+}
+
+@mixin img-fluid ($object-fit:contain){
+    width: 100%;
+    height: 100%;
+    object-fit: $object-fit;
+}
+
+@mixin size($width, $height: $width){
+    width: $width;
+    height: $height;
+}
+
+@mixin circle-box($width, $color){
+    width: $width;
+    height: $width;
+    background: $color;
+    border-radius: 6.187rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin font-style ($font-size, $font-weight: 400) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+@mixin gradient-card(){
+    background: linear-gradient(0deg,  #171e28 0%, $color-darkBlue 100%);
+
+}

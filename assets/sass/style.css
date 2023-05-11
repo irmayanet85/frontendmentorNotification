@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,800;1,500;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(210, 60%, 98%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-notification {
+  margin-top: 4.1rem;
+  width: 45.9rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 20px hsl(211, 68%, 94%);
+}
+.card-notification .card-header-notification {
+  height: 5.6rem;
+  padding-left: 2.1rem;
+  padding-right: 1.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-notification .card-header-notification .card-notification-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-notification .card-header-notification .card-notification-title h1 {
+  font-size: 1.5rem;
+}
+.card-notification .card-header-notification .reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-notification .card-header-notification .reset h2 {
+  font-size: 1rem;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-notification .card-header-notification .reset h2:hover {
+  color: hsl(219, 85%, 26%);
+}
+.card-notification .card-header-notification .reset span {
+  margin-left: 0.6rem;
+}
+.card-notification .card-header-notification .reset #resetAllRead > span {
+  color: hsl(219, 12%, 42%);
+}
+.card-notification .card-header-notification .reset #resetAllUnread > span {
+  color: hsl(1, 90%, 64%);
+}
+.card-notification .card-body-notification {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.card-notification .card-body-notification .notification {
+  padding-left: 1.2rem;
+  padding-top: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: start;
+  gap: 1.4rem;
+  margin-bottom: 0.5rem;
+  min-height: 5rem;
+}
+.card-notification .card-body-notification .notification .description {
+  width: 95%;
+}
+.card-notification .card-body-notification .notification .description .description-subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+.card-notification .card-body-notification .notification .img-left {
+  flex-basis: 5.6rem;
+  margin-left: 1rem;
+}
+
+.card-notification .card-body-notification .xspace-boottom {
+  margin-bottom: 0.6rem;
+}
+
+.badge-primary {
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 2rem;
+  height: 1.5rem;
+  text-align: center;
+  margin-left: 0.8rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5rem;
+}
+
+.avatar-smoll {
+  height: 2.8rem;
+  width: 2.8rem;
+  min-width: 2.8rem;
+}
+.avatar-smoll img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-smoll {
+  height: 2.8rem;
+  width: 2.8rem;
+  max-width: 2.8rem;
+  cursor: pointer;
+}
+.img-smoll img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-smoll::after {
+  display: block;
+  margin-top: 5rem;
+}
+
+.img-smoll :hover {
+  filter: contrast(200%);
+}
+
+.bold {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+
+.time {
+  font-size: 1rem;
+  color: hsl(219, 14%, 63%);
+}
+
+.group {
+  font-size: 1rem;
+  font-weight: bold;
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.strong {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+
+.bold:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.strong:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.state-unread {
+  background-color: hsl(210, 60%, 98%);
+  cursor: pointer;
+}
+.state-unread .status-read {
+  color: hsl(1, 90%, 64%);
+}
+
+.state-unread + div.private-msg {
+  display: none;
+}
+
+.status-read {
+  color: hsl(0, 0%, 100%);
+  margin-left: 0.3rem;
+}
+
+.private-msg {
+  margin-top: -0.6rem;
+  margin-left: 5.2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.3rem 1.3rem 1.3rem;
+  border: 1px solid hsl(205, 33%, 90%);
+  width: 85%;
+  cursor: pointer;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+
+.private-msg:hover {
+  background-color: hsl(211, 68%, 94%);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 836px) {
+  body {
+    font-size: 14px;
+  }
+  body .card-notification {
+    margin-top: 0rem;
+  }
+  body .card-notification .card-header-notification {
+    height: 4.8rem;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+  body .card-notification .card-header-notification .card-notification-title h1 {
+    font-size: 1.25rem;
+  }
+  body .card-notification .card-header-notification h2 {
+    font-size: 0.85rem;
+  }
+  body .card-notification .card-header-notification p {
+    display: none;
+  }
+  body .card-notification .card-body-notification {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+  body .card-notification .card-body-notification .notification {
+    padding-left: 1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.9rem;
+    min-height: 4rem;
+    gap: 0.8rem;
+  }
+  body .card-notification .card-body-notification .notification .description .description-subject {
+    gap: 0.1rem;
+    margin-bottom: 0.2rem;
+  }
+  body .avatar-smoll {
+    height: 2.4rem;
+    width: 2.4rem;
+    min-width: 2.4rem;
+  }
+  body .private-msg {
+    margin: -0.5rem 4rem 0.5rem 4.1rem;
+    width: 78%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

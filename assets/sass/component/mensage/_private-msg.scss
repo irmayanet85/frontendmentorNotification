@@ -1,0 +1,19 @@
+.private-msg {
+    margin-top: -0.6rem;
+    margin-left: 5.2rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.3rem 1.3rem 1.3rem;
+    border: 1px solid $colorLightGrayishBlue2;
+    width: 85%;
+    cursor: pointer;
+    color: $colorDarkGrayishBlue;
+    font-weight: 500;
+}
+
+.private-msg:hover {
+    background-color: $colorLightGrayishBlue1;
+}
+
+.hidden {
+    display: none;
+}

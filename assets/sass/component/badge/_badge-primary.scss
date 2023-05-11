@@ -1,0 +1,12 @@
+.badge-primary {
+    background-color: $colorBlue;
+    border-radius: 6px;
+    font-size: 1rem;
+    @include size(2rem, 1.5rem);
+    text-align: center;
+    margin-left: 0.8rem;
+    color: $colorWhite;
+    line-height: 1.5rem;
+
+    
+}

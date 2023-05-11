@@ -1,0 +1,20 @@
+.state-unread {
+
+    background-color: $colorVeryLightGrayishBlue;
+    cursor: pointer;
+
+    .status-read {
+
+        color: $colorRed;
+        
+    }
+}
+.state-unread + div.private-msg {
+    display: none;
+}
+
+
+.status-read {
+    color: $colorWhite;
+    margin-left: 0.3rem;
+}
